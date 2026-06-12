@@ -1,0 +1,30 @@
+<?php
+
+// English (EN) — Agency labels
+return [
+    'resource'         => 'Agency',
+    'resource_plural'  => 'Agencies',
+    'name'             => 'Name',
+    'slug'             => 'Slug',
+    'logo'             => 'Logo',
+    'phone'            => 'Phone',
+    'email'            => 'Email',
+    'website'          => 'Website',
+    'address'          => 'Address',
+    'city'             => 'City',
+    'province'         => 'Province',
+    'cif'              => 'CIF (Tax ID)',
+    'is_active'        => 'Active',
+    'plan'             => 'Plan',
+    'listings_used'    => 'Listings Used',
+    'listings_limit'   => 'Listings Limit',
+    'listings_remaining' => 'Listings Available',
+    'plan_changed_at'  => 'Last Plan Change',
+    'managers'         => 'Managers',
+    'agents'           => 'Agents',
+    'properties_count' => 'Properties Count',
+    'change_plan'      => 'Change Plan',
+    'admin_note'       => 'Admin Note',
+    'plan_changed_success' => 'Plan updated successfully',
+    'block_warning'    => 'Blocking the agency will hide all its properties from the site',
+];

@@ -1,0 +1,30 @@
+<?php
+
+// Spanish (ES) — Agency labels
+return [
+    'resource'         => 'Agencia',
+    'resource_plural'  => 'Agencias',
+    'name'             => 'Nombre',
+    'slug'             => 'Slug',
+    'logo'             => 'Logotipo',
+    'phone'            => 'Teléfono',
+    'email'            => 'Correo electrónico',
+    'website'          => 'Sitio web',
+    'address'          => 'Dirección',
+    'city'             => 'Ciudad',
+    'province'         => 'Provincia',
+    'cif'              => 'CIF (Número fiscal)',
+    'is_active'        => 'Activa',
+    'plan'             => 'Plan tarifario',
+    'listings_used'    => 'Anuncios utilizados',
+    'listings_limit'   => 'Límite de anuncios',
+    'listings_remaining' => 'Anuncios disponibles',
+    'plan_changed_at'  => 'Último cambio de plan',
+    'managers'         => 'Gestores',
+    'agents'           => 'Agentes',
+    'properties_count' => 'Número de inmuebles',
+    'change_plan'      => 'Cambiar plan',
+    'admin_note'       => 'Nota del administrador',
+    'plan_changed_success' => 'Plan actualizado correctamente',
+    'block_warning'    => 'Al bloquear la agencia, todos sus inmuebles desaparecerán del sitio',
+];
