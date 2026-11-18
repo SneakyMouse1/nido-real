@@ -33,6 +33,9 @@ RUN npm ci
 # Now all code
 COPY . .
 
+ARG VITE_MAPBOX_TOKEN
+ENV VITE_MAPBOX_TOKEN=$VITE_MAPBOX_TOKEN
+
 RUN npm run build \
     && composer dump-autoload --optimize \
     && chown -R www-data:www-data /app \
